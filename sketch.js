@@ -86,7 +86,9 @@ function draw() {
   // Upadating the engine
   Engine.update(engine);
 
-
+  // Displaying the text
+  text("Click on the particle to move it.", 50,30);
+  text("Press 'spacebar' to stop the pendulum.", 50 , 60);
 
   // Making an ellipse at the particle's position
   stroke("blue");
