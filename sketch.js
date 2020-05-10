@@ -56,9 +56,7 @@ function setup() {
 
   // Defining the particle's options
   var particle_options = {
-    restitution: 0.4,
-    isStatic: false,
-    density: 0.0002
+    isStatic: false
   }
 
   // Creating a particle
