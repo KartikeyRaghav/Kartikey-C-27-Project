@@ -87,6 +87,10 @@ function draw() {
   Engine.update(engine);
 
   // Displaying the text
+  textSize(50);
+  textFont("Algerian");
+  stroke("red");
+  strokeWeight(2);
   text("Click on the particle to move it.", 50,30);
   text("Press 'spacebar' to stop the pendulum.", 50 , 60);
 
