@@ -32,24 +32,13 @@ function setup() {
   // Adding mConstraint to the world
   World.add(world,mConstraint);
 
-  // Defining the boundary's options
-  var boundary_options = {
-    isStatic: true
-  }
-
-  // Creating the boundary
-  boundary = Bodies.rectangle(450,height,width,60,boundary_options);
-  
-  // Adding the boundary to the world
-  World.add(world,boundary);
-
   // Defining wood's options
   var wood_options = {
     isStatic: true
   }
 
   // Creating a wood
-  wood = Bodies.rectangle(450,40,800,50,wood_options);
+  wood = Bodies.rectangle(450,200,800,50,wood_options);
   
   // Adding the wood to the world
   World.add(world,wood);
@@ -96,6 +85,8 @@ function draw() {
   
   // Upadating the engine
   Engine.update(engine);
+
+
 
   // Making an ellipse at the particle's position
   stroke("blue");
